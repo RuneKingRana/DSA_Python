@@ -4,7 +4,7 @@ def matrix(rows, cols, name):
 
 def multiply(a, b, m, n, p):
     # Initialize result matrix with zeros
-    c = [[0 for _ in range(p)] for _ in range(m)]
+    c = [[0 for x in range(p)] for x in range(m)]
     for i in range(m):
         for j in range(p):
             for k in range(n):
